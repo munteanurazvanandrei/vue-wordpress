@@ -4,7 +4,7 @@ import VueResource from "vue-resource";
 
 Vue.use(VueResource);
 
-Vue.http.options.root = "http://localhost:8888/wordpressvue/wp-json";
+Vue.http.options.root = "https://bittv.info/wp-json";
 
 Vue.config.productionTip = false;
 
